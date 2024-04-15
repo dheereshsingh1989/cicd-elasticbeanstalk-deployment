@@ -10,5 +10,7 @@ phases:
       - echo Build completed successfully
 artifacts:
   files:
-    - target/cicd-test-app.jar
-  discard-paths: yes
+    - '**/*'
+  base-directory: base_location
+  name: cicd-test-app.jar
+  discard-paths: no
