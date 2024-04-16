@@ -15,6 +15,6 @@ public class DemoApplication {
 
 	@GetMapping("/message")
 	public String getMessage(){
-		return "Hello user, i am your CICD build managers";
+		return "Hello user, i am your CICD build manager";
 	}
 }
